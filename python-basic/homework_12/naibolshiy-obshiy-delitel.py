@@ -20,3 +20,13 @@ def nod_outer(number_1, number_2):
 
 
 nod_outer(int(input('Введите первое число: ')), int(input('Введите второе число: ')))
+
+# def gcd(a, b):
+#     while a != 0 and b != 0:
+#         if a > b:
+#             a = a % b
+#         else:
+#             b = b % a
+#     print('Naibolshiu obshiy delitel', a + b)
+#
+# gcd(30, 20)
